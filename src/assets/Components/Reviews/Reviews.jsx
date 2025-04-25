@@ -68,50 +68,7 @@ function Reviews() {
                     </div>
                 </div>
 
-                  {/* fourth review */}
-                <div className="review_of_a_person mobile_visibility">
-                    <div className="profile">AR</div>
-                    <div className="review_text">
-                            Arjun Raghavan<br/>
-                            <span>arjun2332@gmail.com</span><br/>
-                             <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} /> 
-                            <p>My experience with Express Travels was excellent, and I would highly recommend them to anyone looking for a reliable and friendly travel agency.</p>
-                    </div>
-                </div>
-
-                   {/* fifth review */}
-                <div className="review_of_a_person mobile_visibility">
-                    <div className="profile">AR</div>
-                    <div className="review_text">
-                            Arjun Raghavan<br/>
-                            <span>arjun2332@gmail.com</span><br/>
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} /> 
-                            <p>My experience with Express Travels was excellent, and I would highly recommend them to anyone looking for a reliable and friendly travel agency.</p>
-                    </div>
-                </div>
-            
-                   {/* sixth review */}
-                   <div className="review_of_a_person mobile_visibility">
-                    <div className="profile">AR</div>
-                    <div className="review_text">
-                            Arjun Raghavan<br/>
-                            <span>arjun2332@gmail.com</span><br/>
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} />
-                            <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B",}} /> 
-                            <p>My experience with Express Travels was excellent, and I would highly recommend them to anyone looking for a reliable and friendly travel agency.</p>
-                    </div>
-                </div>
+                 
 
                   
             </div>
