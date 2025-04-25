@@ -1,0 +1,21 @@
+
+.service{
+    display: grid;
+    gap: 4%;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .service .service_box{
+    border: 2px solid #454545;
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.7s ease-in-out;
+  }
+
+  .service .service_box #gif{
+    width: 15%;
+  }
+
+  .service_box:hover{
+    transform: translateY(-10px);
+  }

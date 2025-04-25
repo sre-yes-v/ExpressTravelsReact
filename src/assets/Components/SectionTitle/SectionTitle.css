@@ -1,0 +1,26 @@
+
+.section .section_title{
+    color: var(--font-color);
+    font-weight: 400;
+    font-size: medium;
+    margin-bottom: 68px;
+
+}
+
+.section .section_heading{
+    font-family: "Questrial", sans-serif;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.section .section_heading span{
+  font-family: "Sacramento", cursive;
+    font-weight: 800;
+    color: var(--font-color);
+    font-size: 120px;
+}
+
+.section .section_heading div{
+  margin-top: -15px;
+  margin-bottom: -40px;
+}
