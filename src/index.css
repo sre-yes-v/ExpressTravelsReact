@@ -317,6 +317,43 @@ margin-bottom: -30px;
 
 
 
+/* Footer */
+footer{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .copyright h2{
+  font-size: 15px;
+}
+
+footer .copyright p{
+  font-size: small;
+}
+
+footer .links #footerlinks{
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+
+
+#footerlinks a{
+    text-decoration: none;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 9px;
+    opacity: 0.6;
+    transition: all 0.8s ease-in-out;
+}
+#footerlinks a:hover{
+  opacity: 1;
+}
+
 
 
 

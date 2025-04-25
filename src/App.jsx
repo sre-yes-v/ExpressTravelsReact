@@ -6,7 +6,7 @@ import Navbar from './assets/Components/NavBar/Navbar'
 import Services from './assets/Components/Services/Services'
 import Reviews from './assets/Components/Reviews/Reviews'
 import Gallery from './assets/Components/Gallery/Gallery'
-
+import Footer from './assets/Components/Footer/Footer'
 
 
 
@@ -21,6 +21,7 @@ function App() {
       <Services/>
       <Reviews/>
       <Gallery/>
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,40 @@
+footer{
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  footer .copyright h2{
+    font-size: 15px;
+  }
+  
+  footer .copyright p{
+    font-size: small;
+  }
+  
+  footer .links #footerlinks{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+  }
+  
+  
+  
+  #footerlinks a{
+      text-decoration: none;
+      color: var(--primary-color);
+      text-align: center;
+      font-size: 15px;
+      opacity: 0.6;
+      transition: all 0.8s ease-in-out;
+  }
+  #footerlinks a:hover{
+    opacity: 1;
+  }
+  
+  
+  
