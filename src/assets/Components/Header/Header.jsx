@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import headerBgImg from '../Assets/header_img5.png'
+import headerBgImg from '../Assets/bg-2.jpg'
 import headerBgImgMobile from '../Assets/travel_gallery_img (6).jpg'
 import expressTravelTextImg from '../Assets/expressTravelText.png'
 import testimonialImg from '../Assets/testimonial2.png'
@@ -13,6 +13,7 @@ function Header() {
         {/* background img */}
         <div className="header_img">
                 <img src={headerBgImg} id="header_img"  width="100%"/>
+                <div className="gradient"/>
         </div>
         <div className="header_img1">
             <img src={headerBgImgMobile} id="header_img"  width="100%"/>

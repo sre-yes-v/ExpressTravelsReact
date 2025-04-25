@@ -7,9 +7,21 @@ header{
 
 .header_img{
     width: 100%;
+    height: 745px;
     padding-top: 50px;
+    
 }
 
+.header_img .gradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  background: linear-gradient(to right,#06151e,transparent); 
+  z-index: 1; 
+
+}
 .header_img1{
   display: none;
 }
@@ -24,10 +36,12 @@ header .header_text{
     position: absolute;
     top: 6%;
     left: 3%;
+    z-index: 2;
 }
 
 .header_text img{  
     width: 80%;
+    z-index: 2;
 }
 
 header .header_paragraph{
@@ -42,8 +56,8 @@ header .header_paragraph{
     display: flex;
     bottom: 18%;
     left: 18%;
+    z-index: 2;
 }
-
 
 
 
@@ -54,9 +68,11 @@ header .header_paragraph{
     top: 10%;
     left: 60%;
     gap: 500px;
+    z-index: 2;
 }
 
 .testimonial img{
     width: 90%;
-    filter: drop-shadow(0 0 7px #000);
 }
+
+
